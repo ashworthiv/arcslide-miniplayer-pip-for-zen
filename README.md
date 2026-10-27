@@ -34,12 +34,12 @@ Needs **Zen on macOS**.
 **Option 1: one line in Terminal**
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/ashworthiv/arcslide-miniplayer-zen/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ashworthiv/arcslide-miniplayer-pip-for-zen/main/install.sh | bash
 ```
 
 **Option 2: download**
 
-1. Download `ArcSlide.zip` from the [latest release](https://github.com/ashworthiv/arcslide-miniplayer-zen/releases/latest) and unzip it.
+1. Download `ArcSlide.zip` from the [latest release](https://github.com/ashworthiv/arcslide-miniplayer-pip-for-zen/releases/latest) and unzip it.
 2. Double-click `Install.command`. If macOS blocks it, open **System Settings → Privacy & Security**, scroll down and click **Open Anyway**.
 
 The installer asks a couple of questions; pressing Return keeps the defaults. Zen quits and reopens by itself, and your tabs come back.

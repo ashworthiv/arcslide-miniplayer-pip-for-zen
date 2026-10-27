@@ -1,11 +1,11 @@
 #!/bin/bash
 # ArcSlide Mini Player (PiP) for Zen — one-line installer.
-#   curl -fsSL https://raw.githubusercontent.com/ashworthiv/arcslide-miniplayer-zen/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/ashworthiv/arcslide-miniplayer-pip-for-zen/main/install.sh | bash
 # Downloads the latest release and runs its Install.command. Files fetched with curl aren't
 # quarantined, so macOS doesn't block the installer the way it can for a browser download.
 set -euo pipefail
 
-REPO="ashworthiv/arcslide-miniplayer-zen"
+REPO="ashworthiv/arcslide-miniplayer-pip-for-zen"
 URL="https://github.com/$REPO/releases/latest/download/ArcSlide.zip"
 
 [[ "$(uname)" == "Darwin" ]] || { echo "ArcSlide is for Zen on macOS."; exit 1; }
