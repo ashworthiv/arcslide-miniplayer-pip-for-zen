@@ -2,9 +2,7 @@
 
 **Arc's mini player, back, in [Zen Browser](https://zen-browser.app).** Switch tabs and your video pops out. Fling it and it slides into a corner. Arc's hover controls come with it.
 
-<!-- Demo: record a short clip of a throw + the controls and save it as docs/media/demo.gif, then uncomment:
-![ArcSlide demo](docs/media/demo.gif)
--->
+![ArcSlide demo: switch tabs, the video pops out, fling it and it slides into a corner](docs/media/demo.gif)
 
 If you moved from Arc to Zen and miss the little floating video you could toss into any corner, this brings it back.
 
