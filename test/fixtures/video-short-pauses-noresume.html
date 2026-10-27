@@ -1,0 +1,5 @@
+<!doctype html><body style="margin:0;background:#000"><video id=v src="test-short.mp4" autoplay muted loop playsinline style="width:640px;height:360px"></video>
+<script>
+// Instagram-like: short, silent, muted, pauses itself when the tab is hidden, never resumes.
+document.addEventListener("visibilitychange", () => { if (document.hidden) v.pause(); });
+</script></body>

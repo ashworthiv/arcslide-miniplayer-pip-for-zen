@@ -1,0 +1,44 @@
+name: Bug report
+description: Something about the mini player doesn't work
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, what happened instead. A screen recording helps a lot for throw/slide issues.
+    validations:
+      required: true
+  - type: input
+    id: zen
+    attributes:
+      label: Zen version
+      description: Zen menu → About Zen
+      placeholder: "1.23.4b"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "26.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: input
+    attributes:
+      label: Input device
+      multiple: true
+      options:
+        - Trackpad
+        - Magic Mouse
+        - Regular mouse
+  - type: input
+    id: site
+    attributes:
+      label: Website (for pop-out / controls issues)
+  - type: textarea
+    id: log
+    attributes:
+      label: Gesture log (for slide issues)
+      description: Set `zen.pipthrow.debug` to true in about:config, reproduce, then paste `zen-pipthrow.log` from your Zen profile folder.
+      render: text

@@ -1,0 +1,7 @@
+.DS_Store
+dist/
+research/
+mod/
+test/fixtures/*.mp4
+test/mouse
+*.log
