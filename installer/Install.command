@@ -1,5 +1,5 @@
 #!/bin/bash
-# ArcSlide Mini Player for Zen — installer.
+# ArcSlide Mini Player (PiP) for Zen — installer.
 # Installs the fx-autoconfig script loader into Zen and the ArcSlide scripts into your
 # default Zen profile. Re-run after every Zen update (updates replace Zen.app's files).
 set -euo pipefail
@@ -15,7 +15,7 @@ die() { say ""; say "ERROR: $*"; finish; exit 1; }
 ask() { local a; read -r -p "$1 [y/N] " a || true; [[ "$a" =~ ^[Yy] ]]; }
 ask_yes() { local a; read -r -p "$1 [Y/n] " a || true; [[ ! "$a" =~ ^[Nn] ]]; }
 
-say "=== ArcSlide Mini Player for Zen — installer ==="
+say "=== ArcSlide Mini Player (PiP) for Zen — installer ==="
 [[ "$(uname)" == "Darwin" ]] || die "This installer is for macOS."
 [[ -d "$PAYLOAD" ]] || die "The 'payload' folder is missing next to this installer."
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-# ArcSlide Mini Player for Zen — uninstaller. Removes the ArcSlide scripts, and the script loader too
+# ArcSlide Mini Player (PiP) for Zen — uninstaller. Removes the ArcSlide scripts, and the script loader too
 # if nothing else is using it.
 set -euo pipefail
 
@@ -11,7 +11,7 @@ finish() { say ""; read -r -p "Press Return to close this window." _ || true; }
 die() { say ""; say "ERROR: $*"; finish; exit 1; }
 ask() { local a; read -r -p "$1 [y/N] " a || true; [[ "$a" =~ ^[Yy] ]]; }
 
-say "=== ArcSlide Mini Player for Zen — uninstaller ==="
+say "=== ArcSlide Mini Player (PiP) for Zen — uninstaller ==="
 ZEN_APP=""
 for candidate in "/Applications/Zen.app" "$HOME/Applications/Zen.app" "/Applications/Zen Browser.app"; do
   if [[ -d "$candidate" ]]; then ZEN_APP="$candidate"; break; fi

@@ -1,4 +1,4 @@
-# ArcSlide Mini Player for Zen
+# ArcSlide Mini Player (PiP) for Zen
 
 **Arc's mini player, back, in [Zen Browser](https://zen-browser.app).** Switch tabs and your video pops out. Fling it and it slides into a corner. Arc's hover controls come with it.
 

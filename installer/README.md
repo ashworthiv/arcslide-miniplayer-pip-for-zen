@@ -1,4 +1,4 @@
-# ArcSlide Mini Player for Zen
+# ArcSlide Mini Player (PiP) for Zen
 
 Arc's mini player, back, in Zen Browser on macOS.
 
